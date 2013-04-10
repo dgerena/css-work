@@ -1,0 +1,18 @@
+*{
+	color:grey;
+}
+li a, li span{
+	font:30px arial; color:green;
+}
+.lists, .copy{
+	color:purple;
+}
+h2,h3{
+	font:200px verdana;
+}
+#footer,h1, a:hover{
+	color:red;
+}
+li:last-child{
+color:blue;
+}
