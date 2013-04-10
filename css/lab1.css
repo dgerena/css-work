@@ -4,7 +4,7 @@
 li a, li span{
 	font:30px arial; color:green;
 }
-.lists, .copy{
+.lists, .copy, li{
 	color:purple;
 }
 h2,h3{
@@ -13,6 +13,6 @@ h2,h3{
 #footer,h1, a:hover{
 	color:red;
 }
-li:last-child{
+li:last-child,p:first-letter{
 color:blue;
 }
