@@ -1,0 +1,20 @@
+html, body{
+	background-color:aqua; 
+	font-size:1.2em;
+	font-family:sans-serif;
+	}
+h1,h3{
+	text-align:center;
+	font:40px Times;
+	}
+h3{
+	font-variant:lighter;
+	color:purple;
+	font-style:italic;
+	text-decoration:blink;
+	}
+#bodycopy,{
+	text-align:left
+	font-weight:600;
+	line-height:1;
+	}
