@@ -2,19 +2,37 @@ html, body{
 	background-color:aqua; 
 	font-size:1.2em;
 	font-family:sans-serif;
+	text-indent:10em;
 	}
 h1,h3{
 	text-align:center;
 	font:40px Times;
+	letter-spacing:1.5em;
+	text-transform: uppercase;
 	}
-h3{
-	font-variant:lighter;
+h3,p span,a{
+	font-variant:small-caps;
 	color:purple;
 	font-style:italic;
 	text-decoration:blink;
 	}
-#bodycopy,{
-	text-align:left
-	font-weight:600;
-	line-height:1;
+#bodycopy{
+	text-align:left;
+	font-weight:200;
+	line-height:.3em;
+	text-shadow:10px 10px 10px #222;
+	word-spacing:-1em;
+	}
+p span{
+	font-size:10px ;
+	vertical-align:top;
+	}
+ul{
+	list-style:outside square;
+}
+#footer{
+	color:rgba(255,255,100,0);
+}
+.planet{
+	opacity:.1;
 	}
