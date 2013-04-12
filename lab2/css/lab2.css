@@ -36,3 +36,6 @@ ul{
 .planet{
 	opacity:.1;
 	}
+ul,ol{
+color:lime;
+}
