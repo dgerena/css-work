@@ -52,11 +52,10 @@ body{
 	margin:0 auto;
 	width:960px;
 	}
-
 #nav{
 	float:right;
 	width:480px ;
-}
+	}
 #nav li{
 	width:120px;
 	float:left;
@@ -65,11 +64,11 @@ body{
 h1{
 	float:left;
 	font:100px helvetica;
-}
+	}
 #see_also{
 	float:right;
 	width:460px ;
-}
+	}
 #see_also li{
 	width:172px;
 	float:left;
@@ -98,7 +97,7 @@ h2,h3{
 	float:right;
 	width:460px ;
 	clear:right;
-}
+	}
 #column_one,column_three,#column_three p{
 	clear:left;
 	width:460px;
@@ -106,4 +105,4 @@ h2,h3{
 	}
 #column_one,column_three,#column_three p,#column_two,#column_four{
 	padding:5px;
-}
+	}
