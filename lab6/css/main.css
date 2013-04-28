@@ -1,0 +1,49 @@
+body, form fieldset{
+	width:960px;
+	margin:0 auto;
+	border:0;
+	padding:0;	
+}
+h1{
+	display:block;
+	font:2em helvetica;
+	background-color:#FFAA00;
+} 
+form fieldset{
+	background-color:#FDFAF3;
+	margin:0;
+	padding:5px;
+	border:2px solid #F7E5CC;
+	border-top:2px solid #F7E9CC;
+}
+#word_container,#search_container{
+	display:block;
+	width:460px;
+}
+div #words,div #keywords,div #searchin{
+	margin:5px 20px;
+	border:2px solid #EAEAEA;
+}
+#submit:active{
+	background-color:#FFAA00;
+}	
+#submit{
+	width:80px;
+	height:30px;
+/* 	background-color:#EAEAEA; */
+	display:block;
+	margin:0 auto;
+}
+div #words:hover,div #keywords:hover,div #searchin:hover{ 
+	font:fff;
+	background-color:#EAEAEA;
+}	
+div #words:focus,div #keywords:focus,div #searchin:focus{
+	font:fff;
+	background-color:#EAEAEA;
+}	
+#words,#searchin,#keywords{
+	width:149px;
+	border:3px #f739cc;
+	text-align:center;
+}

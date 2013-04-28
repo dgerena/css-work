@@ -1,0 +1,99 @@
+html{
+	background-color:#FFFFFF;
+}
+body,#container-inner,#container{
+	width:960px;
+	margin:0 auto;
+	border:0;
+	padding:0;	
+	background-color:#FFAA00;
+}
+.log-in,.log-in a{
+text-decoration:none;
+margin:10px;
+}
+h1{
+	display:block;
+	font:2em helvetica;
+	background-color:#FFAA00;
+	width:960px;
+	margin:10px
+} 
+form fieldset{
+	background-color:#FDFAF3;
+	margin:0;
+	padding:0px;
+	border:2px solid #F7E5CC;
+	border-top:2px solid #F7E9CC;
+/* 	width:956px; */
+}
+#section-dob{
+	border-width:2px 0;
+	display:block;
+}
+#section-dob legend, .introduction,.note, .log-in{
+	padding:4px
+}
+#field-agree-tos ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+	width:960px;
+}
+#field-agree-tos li{
+	width:440px;
+	float:left
+}
+div #words,div #keywords,div #searchin{s
+	margin:5px 20px;
+	border:2px solid #EAEAEA;
+}
+div{
+	width:440px;
+	margin:10px;
+	overflow:hidden;
+}
+div label{
+	font:12px helvetica;
+	padding:5px;
+}
+#section-dob{
+	text-align:center;
+}
+/* button and input field stylings */------------------------------------------------
+#submit:active{
+	background-color:#FFAA00;
+}	
+#submit{
+	width:120px;
+	height:30px;
+	background-color:#EAEAEA;
+	display:block;
+	margin:0 auto;
+}
+div #password:hover,div #email:hover,div #password_confirmation:hover,#profile_link:hover{ 
+	font:fff;
+	background-color:#EAEAEA;
+}	
+div #password:active,div #email:active,div #password_confirmation:active,#profile_link:active{
+	font:fff;
+	background-color:#EAEAEA;
+}	
+#password,#email,#password_confirmation,#profile_link{
+	width:149px;
+	border:3px solid #DFEFFF;
+}
+#submit{
+	text-align:center;
+}
+div input,div textarea{
+	float:right;
+/* button and input field stylings */------------------------------------------------
+/* 
+}
+#container-inner,#container{
+	width:960px;
+	margin:0;
+}
+ */
