@@ -57,10 +57,14 @@ div{
 div label{
 	font:12px helvetica;
 	padding:5px;
-}
+} 
 #section-dob{
-	text-align:center;
+	text-align:right;
 }
+#section-dob .note{
+	float:left;	
+}
+
 /* button and input field stylings */------------------------------------------------
 #submit:active{
 	background-color:#FFAA00;
@@ -90,10 +94,3 @@ div #password:active,div #email:active,div #password_confirmation:active,#profil
 div input,div textarea{
 	float:right;
 /* button and input field stylings */------------------------------------------------
-/* 
-}
-#container-inner,#container{
-	width:960px;
-	margin:0;
-}
- */
