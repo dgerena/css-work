@@ -1,0 +1,87 @@
+html{
+	background-color:#FFFFFF;
+}
+body,#container-inner,#container{
+	width:960px;
+	margin:0 auto;
+	border:0;
+	padding:0;	
+	background-color:#FFAA00;
+}
+/* 
+.log-in,.log-in a{
+text-decoration:none;
+margin:10px;
+}
+ */
+h1{
+	display:block;
+	font:2em helvetica;
+	background-color:#FFAA00;
+	width:960px;
+	margin:10px
+/* 	padding:5px; */
+} 
+form fieldset{
+	background-color:#FDFAF3;
+	margin:0;
+	padding:0px;
+	border:2px solid #F7E5CC;
+	border-top:2px solid #F7E9CC;
+/* 	width:956px; */
+}
+#section-dob{
+	border-width:2px 0;
+	display:block;
+}
+#section-dob legend, .introduction,.note, .log-in{
+	padding:4px
+} 
+div{
+	width:440px;
+	margin:10px;
+	overflow:hidden;
+}
+div label{
+	font:12px helvetica;
+	padding:5px;
+} 
+#section-dob{
+	text-align:right;
+}
+#section-dob .note{
+	float:left;	
+}
+#male, #female{
+	float:none;
+}
+#gender{
+	text-align:right;
+}
+/* button and input field states and stylings */------------------------------------------------
+div #submit{
+	width:120px;
+	height:30px;
+	background-color:#EAEAEA;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+div input#submit:active,div #your_photo:active{
+	background-color:#FFAA00;
+}	
+div #your_photo:focus,div #firstname:focus,div #lastname:focus,#profile_link:focus,#dob_month:focus,#dob_day:focus,#dob_year:focus,#about_you:focus,#website_url:focus,#website_name:focus{ 
+	font:fff;
+	background-color:#EAEAEA;
+}	
+div #your_photo:hover,div #firstname:hover,div #lastname:hover,#profile_link:hover,#dob_month:hover,#dob_day:hover,#dob_year:hover,#about_you:hover,#website_url:hover,#website_name:hover{ 
+	font:fff;
+	background-color:#EAEAEA;
+}	
+div #your_photo:active,div #firstname:active,div #lastname:active,#profile_link:active,#dob_month:active,#dob_day:active,#dob_year:active,#about_you:active,#website_url:active,#website_name:active{
+	font:fff;
+	background-color:#EAEAEA;
+}	
+div input,div textarea{
+	float:right;
+/* button and input field stylings */------------------------------------------------
